@@ -1,4 +1,6 @@
 import asyncio
+import os
+os.makedirs("data", exist_ok=True)
 import logging
 from aiogram import Bot, Dispatcher
 from aiogram.fsm.storage.memory import MemoryStorage
